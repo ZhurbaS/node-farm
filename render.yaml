@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: node-site
+    env: node
+    plan: free
+    buildCommand: ''
+    startCommand: node index.js
+    branch: main
+    autoDeploy: true
